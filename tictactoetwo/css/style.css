@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    
+    }
+
+    
+    
+.PopUpYes
+{
+    align-content: center;
+    justify-content: center;
+
+    border-radius: 2em;
+    width: 35em;
+    height: 20em;
+    
+    display: grid;   
+    grid-template-columns: 25% 50% 25% ;
+    grid-template-rows: 19% 5% 15% 25% 25% 9%;
+}
+
+#TitrePopUp
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ligne
+{
+    grid-column: 2;
+    grid-row: 2;
+    width: 250px; 
+    height: 2px;
+    border-radius: 2em;
+    border: 1px solid #ff0090;
+    background-color: #ff0090;
+}
+
+#soutitre
+{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#forume
+{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#PictureMegaMan
+{
+    width: 100%;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.textinpopup
+{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Yess
+{
+    text-align:left;
+}
+
+.PopUpFontThing
+{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.PopUpNo
+{
+    display: none;
+}
+
+#link{
+    color: rgb(0, 0, 255);
+}
+    
+#ButtonFen
+{
+    border-radius: 1em;
+    color: white;
+    background-color: rgb(59, 59, 251);
+    grid-column: 2;
+    grid-row: 6;
+}
+
+
+
+
+
+h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+}
+    
+    
+.flex-container {
+    /* In order to use flex-box we need to first set our display property */
+    display: flex;
+    /* center the container horizontally */
+    justify-content: center;
+    /* this will center content vertically */
+    align-items: center;
+    /* tells the container to align the children in columns rather than rows */
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    /* tells the container to drop down once it reaches max-width */
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+    
+    
+.square {
+    border: 2px solid white;
+    height: 140px;
+    width: 140px;
+    font-size: 80px;
+    color: rgb(0, 238, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+}
